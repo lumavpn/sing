@@ -145,8 +145,6 @@ func reverseDomain(domain string) string {
 	}
 	return string(b)
 }
-<<<<<<< HEAD
-=======
 
 func reverseDomainSuffix(domain string) string {
 	l := len(domain)
@@ -159,4 +157,3 @@ func reverseDomainSuffix(domain string) string {
 	b[l] = prefixLabel
 	return string(b)
 }
->>>>>>> upstream/main
